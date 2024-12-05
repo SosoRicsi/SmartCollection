@@ -1,5 +1,5 @@
 {
-    "name": "sosoricsi/collection",
+    "name": "sosoricsi/smart-collection",
     "type": "library",
     "autoload": {
         "psr-4": {
