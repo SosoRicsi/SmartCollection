@@ -9,7 +9,7 @@ A következő licenc érvényes a projekt teljes tartalmára: **Creator Guard Li
 
 1. **Szabad Felhasználás**A kód szabadon felhasználható bármilyen célra, feltéve, hogy a következő feltételek teljesülnek:
 
-   - A kód módosításához előzetes írásbeli jóváhagyás szükséges a készítőtől (e-mail: lásd alul).
+   - A kód módosításához előzetes írásbeli jóváhagyás szükséges a készítőtől (e-mail: lásd a dokumentum alján).
    - Ha az eredeti készítő nem reagál az e-mailben elküldött kérvényre, a módosítás nem engedélyezett.
    - Az eredeti készítő jogosult a módosított kódot integrálni az eredeti projektbe a módosítást végző személy külön engedélye nélkül, feltéve, hogy:
      - A módosítást végző személy neve és e-mail címe jól láthatóan feltüntetésre kerül PHPDoc formátumban.
