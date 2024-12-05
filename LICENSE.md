@@ -7,17 +7,22 @@ A következő licenc érvényes a projekt teljes tartalmára: **Creator Guard Li
 
 ## Felhasználási Feltételek
 
-1. **Szabad Felhasználás**
-   A kód szabadon felhasználható bármilyen célra, feltéve, hogy a következő feltételek teljesülnek:
+1. **Szabad Felhasználás**A kód szabadon felhasználható bármilyen célra, feltéve, hogy a következő feltételek teljesülnek:
 
-   - A kódon módosítások kizárólag az eredeti készítő jóváhagyásával hajthatók végre.
-   - A módosított kód publikálásakor az eredeti készítő neve jól látható módon megjelenik (lásd a dokumentum alján).
-2. **Továbbterjesztés és Átlicencelés**
-   A kód sem eredeti, sem módosított formájában nem terjeszthető vagy más licenc alá helyezhető, sem nyílt, sem zárt forráskódú projektben, kivéve az eredeti készítő által.
-3. **Kizárólagos Jogok Fenntartása**
-   A szerző minden jogot fenntart a kód felett. Ez a licenc kizárólag a használatra vonatkozik, a szerzői jogok tulajdonjogát nem ruházza át.
-4. **Kizárások és Korlátok**
-   Ez a licenc nem biztosít:
+   - A kód módosításához előzetes írásbeli jóváhagyás szükséges a készítőtől (e-mail: lásd alul).
+   - Ha az eredeti készítő nem reagál az e-mailben elküldött kérvényre, a módosítás nem engedélyezett.
+   - Az eredeti készítő jogosult a módosított kódot integrálni az eredeti projektbe a módosítást végző személy külön engedélye nélkül, feltéve, hogy:
+     - A módosítást végző személy neve és e-mail címe jól láthatóan feltüntetésre kerül PHPDoc formátumban.
+
+   A kérvénynek tartalmaznia kell:
+
+   - A módosítást végző személy nevét és e-mail címét.
+   - A módosítás célját és felhasználási módját.
+   - A módosított kódot csatolmányként.
+   - A módosított kód publikálásakor az eredeti készítő neve és a licenc megnevezése jól látható módon megjelenik (pl. "Eredeti szerző: Jarkó Richárd, Creator Guard License (CGLJR)").
+2. **Továbbterjesztés és Átlicencelés**A kód sem eredeti, sem módosított formában nem terjeszthető vagy licencelhető az eredeti készítő engedélye nélkül.
+3. **Kizárólagos Jogok Fenntartása**A szerző minden jogot fenntart a kód felett. Ez a licenc kizárólag a használatra vonatkozik, a szerzői jogok tulajdonjogát nem ruházza át.
+4. **Kizárások és Korlátok**Ez a licenc nem biztosít:
 
    - Jogot a kód szabad módosítására az eredeti készítő jóváhagyása nélkül.
    - Jogot a kód terjesztésére vagy sajátként való feltüntetésére.
