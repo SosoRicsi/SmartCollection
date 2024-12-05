@@ -47,4 +47,4 @@ A **SmartCollection** az alábbi funkciókat biztosítja:
 
 ## License
 
-A **SmartCollection** az MIT licenc alatt érhető el.
+A **SmartCollection** a(z) **CGLJR** licenc alatt érhető el.
