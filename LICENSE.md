@@ -1,7 +1,7 @@
 
 # LICENSE
 
-A következő licenc érvényes a projekt teljes tartalmára:
+A következő licenc érvényes a projekt teljes tartalmára: **Creator Guard License by Jarkó Richárd (CGLJR)**
 
 ---
 
