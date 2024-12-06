@@ -29,6 +29,21 @@ class SmartCollection implements ArrayAccess
 		$this->items = $items;
 	}
 
+	public function __set(string $key, mixed $value): void
+	{
+		$this->items[$key] = $value;
+	}
+
+	public function __isset(string $key): bool
+	{
+		return isset($this->items[$key]);
+	}
+
+	public function __unset(string $key): void
+	{
+		unset($this->items[$key]);
+	}
+
 	/**
 	 * Magic getter to access items by key.
 	 *
