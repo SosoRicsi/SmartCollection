@@ -208,5 +208,49 @@ class SmartCollection implements ArrayAccess
 
 		return $this;
 	}
+
+	/**
+	 * Filters the collection based on a callback.
+	 *
+	 * @param callable $callback A callback function to determine if an item should remain in the collection.
+	 * @return static A new instance with the filtered items.
+	 */
+	public function filter(callable $callback): static
+	{
+		return new static(array_filter($this->items, $callback, ARRAY_FILTER_USE_BOTH));
+	}
+
+	/**
+	 * Applies a callback to each item in the collection.
+	 *
+	 * @param callable $callback A callback function to transform each item.
+	 * @return static A new instance with the transformed items.
+	 */
+	public function map(callable $callback): static
+	{
+		return new static(array_map($callback, $this->items));
+	}
+
+	/**
+	 * Converts the collection to a JSON string.
+	 *
+	 * @param int $options JSON encoding options (optional).
+	 * @return string The JSON representation of the collection.
+	 */
+	public function toJson(int $options = 0): string
+	{
+		return json_encode($this->items, $options);
+	}
+
+	/**
+	 * Splits the collection into chunks of a specified size.
+	 *
+	 * @param int $size The size of each chunk.
+	 * @return static[] An array of new instances, each representing a chunk.
+	 */
+	public function chunk(int $size): array
+	{
+		return array_map(fn($chunk) => new static($chunk), array_chunk($this->items, $size));
+	}
 	
 }
