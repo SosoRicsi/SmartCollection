@@ -34,7 +34,7 @@ $lastItem = $collection->last();
 
 A **SmartCollection** az alábbi funkciókat biztosítja:
 
-- **add(mix**ed$value, string|int|null $key = null**)**: Hozzáad egy elemet a gyűjteményhez. Ha kulcsot ad meg, az elemet annak a kulcsnak a helyére teszi, különben hozzáfűzi a gyűjtemény végéhez.
+- **add(**mixed$ value, string|int|null $key = null**)**: Hozzáad egy elemet a gyűjteményhez. Ha kulcsot ad meg, az elemet annak a kulcsnak a helyére teszi, különben hozzáfűzi a gyűjtemény végéhez.
 - **all()**: Visszaadja az összes elemet a gyűjteményből.
 - **first()**: Visszaadja az első elemet a gyűjteményből.
 - **last()**: Visszaadja az utolsó elemet a gyűjteményből.
