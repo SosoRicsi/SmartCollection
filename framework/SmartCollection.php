@@ -258,6 +258,16 @@ class SmartCollection implements ArrayAccess
 	}
 
 	/**
+	 * Gives back the items as an array.
+	 * 
+	 * @return array The items.
+	 */
+	public function toArray(): array
+	{
+		return $this->items;
+	}
+
+	/**
 	 * Splits the collection into chunks of a specified size.
 	 *
 	 * @param int $size The size of each chunk.
